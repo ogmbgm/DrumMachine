@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import DrumMachine from './DrumMachine';
 import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <DrumMachine/>
   </React.StrictMode>,
   document.getElementById('root')
 );
