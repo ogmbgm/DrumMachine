@@ -1,9 +1,10 @@
-//import './DrumMachine.css';
+import './Pad.css';
 
 function Pad() {
   return (
-    <div id="drum-pad">
-      
+    <div className="drum-pad">
+      {/* <audio className="clip" src=""></audio> */}
+      Q
     </div>
   );
 }

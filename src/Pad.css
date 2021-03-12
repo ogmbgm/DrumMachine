@@ -1,0 +1,6 @@
+.drum-pad {
+	flex: 0 32%;
+	height: 100px;
+	margin: 0.5% auto;
+	background-color: gray;
+}

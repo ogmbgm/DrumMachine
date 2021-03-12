@@ -1,9 +1,19 @@
-//import './DrumMachine.css';
+import './Pads.css';
 import Pad from './Pad';
 
 function Pads() {
   return (
-    <Pad/>
+    <div id="display">
+        <Pad/>
+        <Pad/>
+        <Pad/>
+        <Pad/>
+        <Pad/>
+        <Pad/>
+        <Pad/>
+        <Pad/>
+        <Pad/>
+    </div>
   );
 }
 
