@@ -18,12 +18,13 @@ class Pad extends Component {
   }
 
   handlePress(event){
-    if(event.code == 'Key' + this.props.letter){
+    if(event.code === 'Key' + this.props.letter){
       this.playSound()
     }
   }
 
   playSound(){
+    this.props.change(this.props.letter)
     let sound = document.getElementById(this.props.letter);
     sound.currentTime=0;
     sound.play();
