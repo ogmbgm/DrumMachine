@@ -24,10 +24,13 @@ class Pad extends Component {
   }
 
   playSound(){
-    this.props.change(this.props.letter)
+    this.props.change(this.props.letter);
+    let button = document.getElementById(this.props.letter + 'b');
     let sound = document.getElementById(this.props.letter);
     sound.currentTime=0;
     sound.play();
+    button.classList.toggle("pressed");
+    setTimeout(() => {button.classList.toggle("pressed");}, 100);
   }
   render(){
     return (

@@ -20,9 +20,12 @@ class DrumMachine extends React.Component {
 
   render(){
     return (
-      <div id="drum-machine">
+      <div>
+        <h1>Drum Machine</h1>
+        <div id="drum-machine">
           <Pads change={this.changeDisplay}/>
           <Display text={this.state.displayText}/>
+        </div>
       </div>
     );
   }
