@@ -1,8 +1,0 @@
-#padbox {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding-left: 2%;
-	padding-bottom: 2%;
-	width: 60%;
-}
